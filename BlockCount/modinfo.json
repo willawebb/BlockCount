@@ -1,0 +1,10 @@
+{
+    "type": "code",
+    "modid": "blockcount",
+    "name": "BlockCount",
+    "authors": [
+        "artemis"
+    ],
+    "description": "Simple mod that generates a recipe list for all the blocks in your building.",
+    "version": "1.0.0"
+}
