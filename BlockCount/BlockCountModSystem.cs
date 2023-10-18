@@ -79,7 +79,6 @@ namespace BlockCount
                     }
 
                     return CountBlocks(start, end, (string)args.Parsers[0].GetValue(), api);
-                    //return TextCommandResult.Success("Debug Message.");
                 })
             .EndSub();
         }
@@ -145,7 +144,7 @@ namespace BlockCount
                 return TextCommandResult.Success("Failed exporting: " + e.Message);
             }
 
-            return TextCommandResult.Success("Yes this definitely still works.\n" + output, null);
+            return TextCommandResult.Success(output, null);
         }
 
 
