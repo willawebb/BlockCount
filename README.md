@@ -1,0 +1,1 @@
+A simple mod that counts all the blocks in a region and returns it as both an in-game readout and an outputted file.
